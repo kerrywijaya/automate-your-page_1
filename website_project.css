@@ -1,0 +1,87 @@
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+h1{                                     /* heading */
+  font-family: courier;
+  background: lightskyblue;
+  color: chocolate;
+}
+
+.subtitle{                              /* subtitle */
+  font-size: 80%;
+  background-color: orange;
+  color: white;
+}
+
+.content{                               /* regular content */
+  background-color: khaki;
+  font-family: courier;
+  padding: 10px;
+}
+
+.flexible{
+  direction: column;
+  display: -webkit-flex;
+  display: flex;
+  vertical-align: stretch;
+}
+
+#another{                         
+  margin-top: 3000px;
+  margin-bottom: 800px;
+  background-color: white;
+}
+
+.heart{                                 /* for the color of the &hearts; symbol */
+  color: crimson;
+}
+
+.console_block{                         /* highlighting text blocks, console style */
+  background-color: black;
+  color: green;
+  font-family: lucida console;
+  width: 80%;
+  padding: 10px;
+}
+
+/* div.console{...} see CSS selectors */
+
+.console_inline{                        /* highlighting inline text, console style */
+  background-color: black;
+  color: green;
+  font-family: lucida console;
+}
+
+.picProfile{
+  width: 300px;
+  margin: 0;
+  padding: 0;
+}
+
+.picLove{
+  width: 500px;
+}
+
+.picBiggest{
+  margin-right: 20px;
+}
+
+.picBug{
+  margin-right: 20px;
+}
+
+.red{                                   /* simple highlighting*/
+  color: red;
+}
+
+.code{                                  /* for code examples */
+  background-color: azure;
+  color: dodgerblue;
+  font-family: lucida console;
+  width: 80%;
+  margin: 10px;
+}
